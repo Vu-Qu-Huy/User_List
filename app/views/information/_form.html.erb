@@ -1,0 +1,36 @@
+<%= form_with(model: @information, local: true) do |form| %>
+  <% if @information.errors.any? %>
+    <div style="color: red">
+      <h2><%= pluralize(@information.errors.count, "error") %> prohibited this information from being saved:</h2>
+      <ul>
+        <% @information.errors.full_messages.each do |message| %>
+          <li><%= message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="form-group">
+    
+    <%= form.text_field :First_name, class: "form-control", placeholder: "First Name" %>
+  </div>
+    <br>
+
+  <div class="form-group">
+    <%= form.text_field :Last_name, class: "form-control", placeholder: "Last Name" %>
+  </div>
+    <br>
+  <div class="form-group">
+    
+    <%= form.text_field :Phone_number, class: "form-control", placeholder: "Phone number" %>
+  </div>
+    <br>
+  <div class="form-group">
+
+    <%= form.text_field :Description, class: "form-control", placeholder: "Description: Not required"  %>
+  </div>
+    <br>
+  <div>
+    <%= form.submit "Save", class: "btn btn-primary" %>
+  </div>
+<% end %>

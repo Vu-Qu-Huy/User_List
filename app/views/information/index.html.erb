@@ -1,0 +1,27 @@
+
+<table class="table table-bordered table-hover table-responsive">
+    <thead class="table-dark">
+    <tr>
+      <th>First name</th>
+      <th>Last name</th>
+      <th>Phone number</th>
+      <th>Description</th> 
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @information.each do |information| %>
+      <tr>
+        <td><%= information.First_name %></td>
+        <td><%= information.Last_name %></td>
+        <td><%= information.Phone_number %></td>
+        <td><%= information.Description %></td>
+        <td>
+          <%= link_to "Show",information_path(information) %>
+          <%= link_to "Edit", edit_information_path(information) %>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<%= link_to "New Information",new_information_path,class: "btn btn-secondary" %>

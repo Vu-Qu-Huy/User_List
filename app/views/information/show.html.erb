@@ -1,0 +1,12 @@
+
+
+<div class="jumbotron">
+<h1 class="display-4"><%= @information.First_name %> <%= @information.Last_name %></h1>
+  <p class="lead">Phone number is: <%= @information.Phone_number %></p>
+  <hr class="my-4">
+  <p>Description: <%= @information.Description %></p>
+  <p class="lead">
+<%= link_to "Back to information", information_index_path,class: "btn btn-primary"  %>  </p>
+<%= button_to "Delete this information", @information, method: :delete, class: "btn btn-danger", data: { confirm: "Are you sure?" } %>
+</div>
+
