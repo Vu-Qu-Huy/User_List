@@ -38,7 +38,7 @@ Users can sign up to create a new account.
 
 ![Sign Up](app/assets/images/Sign%20Up.png)
 
-- **Email**: Enter a valid email address.
+- **Email**: Enter an email address.
 - **Password**: Create a password (minimum 8 characters).
 - **Confirm Password**: Confirm the password.
 
