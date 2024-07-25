@@ -66,7 +66,7 @@ Users can add new information such as name, description, last name, first name, 
 
 Users can view detailed information about a user by clicking the "Show" button.
 
-![Show User Information](app/assets/images/Show%20User%20Information.png)
+![Show User Information](app/assets/images/Show%20User.png)
 
 - Details include User ID, First Name, Last Name, Phone Number, Email, and Description.
 
@@ -74,7 +74,7 @@ Users can view detailed information about a user by clicking the "Show" button.
 
 When a user tries to edit information that they are not authorized to edit, an error message is displayed.
 
-![Not Authorized to Edit](app/assets/images/Not%20Authorized%20to%20Edit.png)
+![Not Authorized to Edit](app/assets/images/Cannot%20Edit%20Another%20User.png)
 
 - Error: "Not authorized to edit this information."
 
