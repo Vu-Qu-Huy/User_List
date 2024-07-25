@@ -1,2 +1,10 @@
-<h1>Home#index</h1>
-<p>Find me in app/views/home/index.html.erb</p>
+<div class="card">
+  <%= image_tag "User.png", class: "card-img-top", alt: "...", style: "width: 100px; height: auto;" %>
+  <div class="card-body">
+    <h5 class="card-title">Welcome</h5>
+    <p class="card-text">You can create, read, update and delete the list. A sample account is example@gmail.com, password: example123</p>
+    <div>
+        <%= link_to "Get Started", information_index_path,class: "btn btn-primary"  %>
+    </div>
+  </div>
+</div>
