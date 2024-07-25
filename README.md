@@ -46,7 +46,7 @@ Users can sign up to create a new account.
 
 After signing in successfully, users are redirected to the homepage with a notification.
 
-![Successful Sign In](app/assets/images/Successful%20Sign%20In.png)
+![Successful Sign In](app/assets/images/Log%20In%20Successfully.png)
 
 - Notification: "You have successfully signed in."
 
