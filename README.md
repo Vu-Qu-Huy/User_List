@@ -27,7 +27,7 @@ This section shows the list of users and the CRUD (Create, Read, Update, Delete)
 
 Users can log in to access the application's features.
 
-![Log In](app/assets/images/Log%20in.png)
+![Log In](app/assets/images/Log%20In.png)
 
 - **Email**: Enter your email address.
 - **Password**: Enter your password.
