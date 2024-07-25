@@ -27,7 +27,7 @@ This section shows the list of users and the CRUD (Create, Read, Update, Delete)
 
 Users can log in to access the application's features.
 
-![Log In](app/assets/images/Login.png)
+![Log In](app/assets/images/Log%2020in.png)
 
 - **Email**: Enter your email address.
 - **Password**: Enter your password.
@@ -86,8 +86,3 @@ To get started with the User List application:
 2. Install the necessary dependencies.
 3. Run the application on your local server.
 
-```sh
-git clone https://github.com/yourusername/yourrepository.git
-cd yourrepository
-npm install
-npm start
