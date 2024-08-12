@@ -9,6 +9,9 @@
       </ul>
     </div>
   <% end %>
+  <div class="form-group">
+    <%= form.number_field :user_id, id: :information_user_id, class: "form-control", value:  current_user.id, type: :hidden %>
+  </div>
 
   <div class="form-group">
     
@@ -21,10 +24,14 @@
   </div>
     <br>
   <div class="form-group">
-    
     <%= form.text_field :Phone_number, class: "form-control", placeholder: "Phone number" %>
   </div>
     <br>
+   <div class="form-group">
+    <%= form.text_field :emails, class: "form-control", placeholder: "Emails" %>
+  </div>
+    <br>
+
   <div class="form-group">
 
     <%= form.text_field :Description, class: "form-control", placeholder: "Description: Not required"  %>
